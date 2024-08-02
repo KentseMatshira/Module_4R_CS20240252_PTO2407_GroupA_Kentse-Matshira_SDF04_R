@@ -1,21 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
-</head>
-<body>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #fef3e2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .counter {
+        background-color: #e5e5f7;
+        opacity: 0.8;
+        background-image: repeating-linear-gradient(
+            45deg,
+            #f74545 25%,
+            transparent 25%,
+            transparent 75%,
+            #f74545 75%,
+            #f74545
+          ),
+          repeating-linear-gradient(
+            45deg,
+            #f74545 25%,
+            #e5e5f7 25%,
+            #e5e5f7 75%,
+            #f74545 75%,
+            #f74545
+          );
+        background-position: 0 0, 10px 10px;
+        background-size: 20px 20px;
+        padding: 80px;
+        border-radius: 10px;
+        width: 80%;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .pastry {
+        color: #533117;
+        padding: 20px;
+        border-radius: 50%;
+        font-size: 18px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .pastry img {
+        width: 50px;
+        height: 50px;
+      }
+      .pastry1 {
+        /* Cookie */
+        top: 0;
+        left: 0;
+        background-color: #f0bb7f;
+      }
+      .pastry2 {
+        /* Brownie */
+        top: 0;
+        right: 0;
+        background-color: #7f553f;
+      }
+
+      .pastry3 {
+        /* Cupcake */
+        bottom: 0;
+        left: 0;
+        background-color: #f0a8be;
+      }
+
+      .pastry4 {
+        /* Jelly Roll */
+        bottom: 0;
+        right: 0;
+        background-color: #7fa8f0;
+      }
+    </style>
+  </head>
+  <body>
     <div class="counter">
-        <div class="pastry pastry1"><img src="https://img.icons8.com/ios/50/000000/cookie.png" alt="Cookie Icon"></div>
-        <div class="pastry pastry2"><img src="https://img.icons8.com/ios/50/000000/candy.png" alt="Brownie Icon"></div>
-        <div class="pastry pastry3"><img src="https://img.icons8.com/ios/50/000000/cupcake.png" alt="Cupcake Icon"></div>
-        <div class="pastry pastry4"><img src="https://img.icons8.com/ios/50/000000/pie.png" alt="Jelly Roll Icon"></div>
+      <div class="pastry pastry1">
+        <img
+          src="https://img.icons8.com/ios/50/000000/cookie.png"
+          alt="Cookie Icon"
+        />
+      </div>
+      <div class="pastry pastry2">
+        <img
+          src="https://img.icons8.com/ios/50/000000/candy.png"
+          alt="Brownie Icon"
+        />
+      </div>
+      <div class="pastry pastry3">
+        <img
+          src="https://img.icons8.com/ios/50/000000/cupcake.png"
+          alt="Cupcake Icon"
+        />
+      </div>
+      <div class="pastry pastry4">
+        <img
+          src="https://img.icons8.com/ios/50/000000/pie.png"
+          alt="Jelly Roll Icon"
+        />
+      </div>
     </div>
-</body>
+  </body>
 </html>
-
-
-
-
